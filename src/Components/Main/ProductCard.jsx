@@ -17,10 +17,10 @@ function ProductCard() {
         <div className="Card-Title ">
         {product.title.slice(0,55)}...
         </div>
-        <div className="Card-Price text-base text-[#FF6801]">Rs. {product.price}</div>
+        <div className="Card-Price text-base text-[#FF6801]">{product.originalPrice}</div>
         <div className="Card-Discounted-Price">
-            <span className="line-through text-gray-400 mr-2">Rs {product.discount}</span>
-            <span>-60%</span>
+            <span className="line-through text-gray-400 mr-2">{product.price}</span>
+            <span>{product.discount}</span>
         </div>
       </article>
             )
