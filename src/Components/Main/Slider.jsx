@@ -33,12 +33,12 @@ function Slider() {
           alt=""
           className="h-[50vh] w-full object-cover"
         />
-        <button className="absolute top-[50%] bottom-[50%] left-0 py-2 px-2 text-white bg-black bg-opacity-60">
+        {/* <button className="absolute top-[50%] bottom-[50%] left-0 py-2 px-2 text-white bg-black bg-opacity-60">
           <i className="fa-solid fa-arrow-left absolute top-0 left-0"></i>
         </button>
         <button className="absolute top-[50%] bottom-[50%] right-0 py-2 px-2 text-white bg-black bg-opacity-60" >
           <i className="fa-solid fa-arrow-right absolute top-0 right-0 " onClick={handleChangeSlide}></i>
-        </button>
+        </button> */}
       </article>
     </section>
   );

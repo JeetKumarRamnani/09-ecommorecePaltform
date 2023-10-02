@@ -2,8 +2,8 @@ import React from 'react'
 
 function Cart() {
   return (
-    <div className="Cart ">
-    <i class="fa-solid fa-cart-shopping"></i>
+    <div className="Cart">
+    <i class="fa-solid fa-cart-shopping text-lg"></i>
   </div>
   )
 }
