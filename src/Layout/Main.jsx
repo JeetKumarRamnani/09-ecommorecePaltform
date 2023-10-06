@@ -5,7 +5,7 @@ import FlashSale from '../Components/Main/FlashSale'
 
 function Main() {
   return (
-    <main className='relative top-24'>
+    <main className='mt-5'>
         <HeroSection/>
         <Categories/>
         <FlashSale/>
