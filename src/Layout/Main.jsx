@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroSection from './SubLayout/MainSubLayouts/HeroSection'
-import Categories from './SubLayout/MainSubLayouts/Categories'
+import Categories from '../Components/Main/Categories' 
+import HeroSection from '../Components/Main/HeroSection'
 import FlashSale from '../Components/Main/FlashSale'
 
 function Main() {

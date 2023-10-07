@@ -1,5 +1,5 @@
 import React from "react";
-import categoriesData from "../../../Data/categoriesData";
+import categoriesData from "../../Data/categoriesData";
 
 
 function Categories() {  
